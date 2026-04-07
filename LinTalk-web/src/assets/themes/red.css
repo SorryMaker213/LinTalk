@@ -1,0 +1,15 @@
+[data-theme='red'] {
+  --primary-color: 230, 72, 72;
+  --minor-color: 255, 196, 196;
+  --background-color: 255, 255, 255;
+  --text-color: 33, 33, 33;
+  --screen-bg-color: linear-gradient(
+    120deg,
+    rgba(var(--minor-color), 0.32),
+    #fff2f2,
+    rgba(var(--primary-color), 0.28)
+  );
+  --scrren-grid-bg-color: linear-gradient(to right, rgba(230, 72, 72, 0.08) 1px, transparent 100px),
+    linear-gradient(to bottom, rgba(230, 72, 72, 0.08) 1px, transparent 100px);
+  --group-bg-color: 33, 33, 33;
+}

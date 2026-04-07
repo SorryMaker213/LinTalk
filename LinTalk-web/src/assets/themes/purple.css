@@ -1,0 +1,15 @@
+[data-theme='purple'] {
+  --primary-color: 139, 92, 246;
+  --minor-color: 221, 214, 254;
+  --background-color: 255, 255, 255;
+  --text-color: 33, 33, 33;
+  --screen-bg-color: linear-gradient(
+    120deg,
+    rgba(var(--minor-color), 0.34),
+    #f5f0ff,
+    rgba(var(--primary-color), 0.3)
+  );
+  --scrren-grid-bg-color: linear-gradient(to right, rgba(139, 92, 246, 0.08) 1px, transparent 100px),
+    linear-gradient(to bottom, rgba(139, 92, 246, 0.08) 1px, transparent 100px);
+  --group-bg-color: 33, 33, 33;
+}
