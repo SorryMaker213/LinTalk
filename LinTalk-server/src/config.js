@@ -23,7 +23,7 @@ module.exports = {
   lintalkLimit: Number(process.env.LINTALK_LIMIT || 100),
   lintalkName: process.env.LINTALK_NAME || 'LinTalk在线聊天室',
   lintalkExpires: Number(process.env.LINTALK_EXPIRES || 7),
-  doubaoApiKey: process.env.LINTALK_DOUBAO_API_KEY || '',
+  doubaoApiKey: process.env.LINTALK_DOUBAO_API_KEY || 'e9d21c1c-75e8-4fcd-9207-f8f2c4ecddb2',
   doubaoCountLimit: Number(process.env.LINTALK_DOUBAO_COUNT_LIMIT || 5),
   doubaoLengthLimit: Number(process.env.LINTALK_DOUBAO_LENGTH_LIMIT || 50),
   doubaoModel: process.env.LINTALK_DOUBAO_MODEL || 'doubao-seed-2-0-mini-260215',
